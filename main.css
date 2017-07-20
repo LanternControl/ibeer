@@ -29,7 +29,8 @@ img{
 }
 .wrapper{
     width: 1000px;
-
+    display: flex;
+    align-content: center;
     /*
         TODO: 
         - Center up the page
@@ -38,6 +39,7 @@ img{
     */
 }
 #site-header{
+    display: inline-block;
     /*
         TODO
         - Flexbox property here
@@ -47,7 +49,7 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
-
+    background-image: url("../ibeer_starter_files/img/header-img.jpg");
     /*
         TODO: 
         - Add a background image "header-img.jpg"
@@ -67,9 +69,12 @@ img{
     top: 20px;
 }
 #site-header div h3{
+    font-family: Dancing Script;
+    src: url("https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Sans|Noto+Serif");
     color: white;
     bottom: 20px;
     text-shadow: 0 5px 8px rgba( 0, 0, 0, 0.3 );
+    
     /*
         TODO: 
         - Use the script font: 'Dancing Script' fot this text
@@ -77,6 +82,9 @@ img{
 }
 #main-navigation{
     background: #444;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 
     /*
         TODO: 
@@ -89,6 +97,7 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px 20px;
+    flex-shrink: 0;
 
     /*
         TODO: 
@@ -97,6 +106,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
+    flex-grow: 1;
 
     /*
         TODO: 
