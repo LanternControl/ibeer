@@ -49,7 +49,7 @@ img{
     text-align: center;
     padding: 60px 0 120px 0;
     font-size: 4em;
-    background-image: url("../ibeer_starter_files/img/header-img.jpg");
+    background-image: url("../iBeer/img/header-img.jpg");
     /*
         TODO: 
         - Add a background image "header-img.jpg"
@@ -106,7 +106,7 @@ img{
 }
 #main-navigation #logo{
     margin-right: 400px;
-    flex-grow: 1;
+    flex-grow: ;
 
     /*
         TODO: 
@@ -116,8 +116,11 @@ img{
 }
 main{
     padding: 20px;
-    background-color: #444;
+    background-color: gr#444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    
+    
+    
     /*
         TODO: 
         - Flexbox: Set the starting width of this element
@@ -168,6 +171,7 @@ article time{
     color: #666;
 }
 article img{
+    float: right;
     /*
         TODO: 
         - Float article images to the right
