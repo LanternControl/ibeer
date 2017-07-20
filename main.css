@@ -128,6 +128,7 @@ main{
     top: -50px;
     
     
+    
     /*
         TODO: 
         - Flexbox: Set the starting width of this element
@@ -138,6 +139,7 @@ aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
+    flex-flow: wrap;
     /*
         TODO: 
         - Flexbox: Set the starting width of this element
@@ -179,6 +181,7 @@ article time{
 }
 article img{
     float: right;
+    
     /*
         TODO: 
         - Float article images to the right
@@ -186,6 +189,7 @@ article img{
     */
 }
 article footer p{
+   
     /*
         TODO: 
         - Style the article footer
@@ -193,7 +197,9 @@ article footer p{
     */
 }
 #site-footer{
-    
+    align-content: center;
+    background-position: center;
+    background-size: cover;
     background: #333;
     /*
         TODO: 
